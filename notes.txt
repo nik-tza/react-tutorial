@@ -1,0 +1,11 @@
+#npm
+
+npm init
+npm install <package name> --save
+sudo npm <package name> -g
+npm install <package name> --save-dev //use it only in development
+
+
+#To create a project called my-app, run this command:
+
+npx create-react-app my-app

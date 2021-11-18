@@ -21,6 +21,7 @@ const Book = () => {
     <article className="book">
       <Image></Image>
       <Title />
+      <Author />
     </article>
   );
 };
@@ -33,5 +34,10 @@ const Image = () => (
 );
 
 const Title = () => <h1>This is the title the book</h1>;
+const Author = () => (
+  <h4 style={{ color: "#617d98", fontSize: "0.75rem", margin: "0.25rem" }}>
+    Name Surname
+  </h4>
+);
 
 ReactDom.render(<BookList />, document.getElementById("root"));
